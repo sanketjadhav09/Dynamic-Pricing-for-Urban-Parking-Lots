@@ -25,19 +25,9 @@ The simulation incorporates **three distinct pricing models** and mimics real-ti
 
 ---
 
-## 🧱 Project Architecture
+## 🧱 Architecture Diagram
 
-```mermaid
-flowchart TD
-    A[📂 dataset.csv] --> B[🧹 Data Preprocessing]
-    B --> C1[🔁 Pathway Simulator - Simulated Streaming]
-    C1 --> D1[🧮 BaselineLinearModel]
-    C1 --> D2[📊 DemandBasedModel]
-    C1 --> D3[📍 CompetitivePricingModel]
-    D1 & D2 & D3 --> E[🗃 Pricing Output as CSV]
-    E --> F[📈 Bokeh Visualizations]
-    E --> G[📑 Summary Report]
-```
+![Architecture Diagram](architecture_diagram.png)
 
 ---
 
@@ -86,13 +76,14 @@ flowchart TD
 ## 📁 Folder Structure
 
 ```
-📦 dynamic-parking-pricing/
-├── SA25_Project_Final.ipynb               # Final notebook
-├── dataset.csv                            # Cleaned parking dataset
-├── parking_pricing_baseline_results.csv  # Output: Baseline model
-├── parking_pricing_demand_based_results.csv  # Output: Demand-based model  
+📦 Dynamic-Pricing-for-Urban-Parking-Lots/
+├── SA25_Project_Final.ipynb                 # Final notebook
+├── dataset.csv                              # Cleaned parking dataset
+├── parking_pricing_baseline_results.csv     # Output: Baseline model
+├── parking_pricing_demand_based_results.csv # Output: Demand-based model  
 ├── parking_pricing_competitive_results.csv  # Output: Competitive pricing model
-├── README.md                              # You're here
+├── architecture_diagram.png                 # Project architecture diagram
+├── README.md                                # Main project documentation
 ```
 
 ---
