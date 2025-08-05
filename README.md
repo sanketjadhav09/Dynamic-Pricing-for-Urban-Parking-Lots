@@ -83,6 +83,7 @@ The simulation incorporates **three distinct pricing models** and mimics real-ti
 ├── parking_pricing_demand_based_results.csv # Output: Demand-based model  
 ├── parking_pricing_competitive_results.csv  # Output: Competitive pricing model
 ├── architecture_diagram.png                 # Project architecture diagram
+├── LICENSE                                  # MIT License file
 ├── README.md                                # Main project documentation
 ```
 
@@ -97,6 +98,12 @@ The simulation incorporates **three distinct pricing models** and mimics real-ti
    ```
 3. Run all cells in `SA25_Project_Final.ipynb`  
 4. View results and interact with Bokeh plots
+
+---
+
+## 📄 License
+
+This project is open-source and available under the terms of the [MIT License](LICENSE).
 
 ---
 
